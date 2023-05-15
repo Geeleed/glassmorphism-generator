@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    background-color: #111111ee;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#left{
+    flex: 1 1 50vw;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+#css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#glass{
+    cursor: pointer;
+    box-sizing: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#right{
+    flex: 1 1 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    background-color: #00000077;
+    border-radius: 10px;
+    padding: 25px 5px;
+}
+#surf, #edge, #shadow{
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 500px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: #00000077;
+}
+#sl,#sc,#st,#rt,#sb,#rb,#hhww,#el,#ec,#et,#ret,#eth,#reth,#er,#rer,#shl,#ci,#sht,#rsht,#shs,#rshs,#shb,#rshb,#xxyy{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#hh,#ww,#xx,#yy{
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#ci{
+    justify-content: left;
+}
+#shc{
+    width: 80%;
+}
+#c{
+    width: 5%;
+}
+#isl{
+    width: 10%;
+}
+#sl,#el,#shl{
+    font-weight: bold;
+    font-size: large;
+}
